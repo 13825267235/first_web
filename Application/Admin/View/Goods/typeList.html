@@ -1,0 +1,22 @@
+<include file='Public/header'/>
+<div class="container">
+    <h4 style="float:right"><a href='{:U("addType")}'>添加分类</a></h4>
+    <table class='table-condensed'>
+        
+        <tr>
+            <td>分类ID</td>
+            <td>分类名称</td>
+            <td>父级分类</td>
+            <td>操作</td>
+        </tr>
+        
+        <foreach name='type_list' item='type'>
+            <tr>
+            <td>{$type.id}</td>
+            <td>{$type.type_name}</td>
+            <td>{$type.parent_type}</td>
+            <td>修改| 删除</td>
+            </tr>
+        </foreach>
+    </table>
+</div>

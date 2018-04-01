@@ -1,0 +1,28 @@
+<include file='Public/header'/>
+<div class='content'>
+    <table class='table-condensed table-hover'>
+        <tr>
+            <td>新闻ID</td>
+            <td>新闻标题</td>
+            <td>新闻来源</td>
+            <td>新闻类型</td>
+            <td>创建时间</td>
+            <td>操作</td>
+        </tr>
+        <foreach name='newsList' item='news'>
+            <tr>
+                <td>{$news.id}</td>
+                <td>{$news.title}</td>
+                <td>{$news.source}</td>
+                <td>{$news.classname}</td>
+                <td>{$news.create_time}</td>
+                <td><a href="{:U('manage',array('id'=>$news[id]))}">修改</a>|<a href='#' data-i='{$news.id}' data-url="delete" data-msg="是否确认删除该新闻？" class='delete'>删除</a></td>
+            </tr>
+        </foreach>
+    </table>
+    <!--引入音视频播放器 start-->
+    <video autoplay>
+        <source src="__PUBLIC__/music/saysay.mp3"/>
+    </video>
+    <!--引入音视频播放器 end-->
+</div>

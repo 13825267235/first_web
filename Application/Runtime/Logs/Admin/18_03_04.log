@@ -1,0 +1,1436 @@
+[ 2018-03-04T11:22:34+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015130s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 150 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 151 行.
+ERR: 模板不存在:Application/Admin/View/Exercise/index.html
+
+[ 2018-03-04T11:32:58+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 150 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:2.353095s ]
+INFO: [ app_end ] --END-- [ RunTime:2.353220s ]
+
+[ 2018-03-04T11:35:27+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 150 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 151 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php on line 301 and defined D:\xampps\htdocs\university\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content D:\xampps\htdocs\university\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+ERR: 模板不存在:Application/Admin/View/Exercise/index.html
+
+[ 2018-03-04T11:35:38+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 150 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 151 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2018-03-04T11:53:50+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 150 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 151 行.
+
+[ 2018-03-04T11:54:16+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 150 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 151 行.
+ERR: Think\Controller:construct方法不存在！
+
+[ 2018-03-04T12:18:13+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_name D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 27 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 158 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 159 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002574s ]
+
+[ 2018-03-04T12:18:13+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_name D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 27 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 158 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 159 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2018-03-04T12:18:14+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_name D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 27 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 158 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 159 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2018-03-04T12:18:14+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_name D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 27 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 158 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 159 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2018-03-04T12:18:15+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_name D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 27 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 158 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 159 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2018-03-04T12:19:38+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_name D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 160 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 161 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2018-03-04T12:19:38+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_name D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 160 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 161 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2018-03-04T12:19:39+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_name D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 160 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 161 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2018-03-04T12:20:36+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_name D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 19 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 160 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 161 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001259s ]
+
+[ 2018-03-04T12:20:43+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 160 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 161 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2018-03-04T12:20:44+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 160 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 161 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2018-03-04T12:20:44+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 160 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 161 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2018-03-04T12:20:44+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 160 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 161 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2018-03-04T12:20:45+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 160 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 161 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2018-03-04T12:20:45+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 160 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 161 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2018-03-04T12:20:45+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\ExerciseController::__construct(), called in D:\xampps\htdocs\university\ThinkPHP\Common\functions.php on line 681 and defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 18 行.
+NOTIC: [8] Undefined variable: student_sex D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 20 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 160 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 161 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2018-03-04T17:30:47+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011370s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+
+[ 2018-03-04T17:31:02+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.058251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.058385s ]
+
+[ 2018-03-04T17:40:02+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000746s ]
+
+[ 2018-03-04T17:40:03+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2018-03-04T17:40:04+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2018-03-04T17:40:32+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+
+[ 2018-03-04T17:40:42+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:40:43+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:40:43+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:40:44+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:41:18+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+NOTIC: [2] include_once(PublicControllers.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+NOTIC: [2] include_once(): Failed opening 'PublicControllers.class.php' for inclusion (include_path='D:\xampps\php\PEAR') D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:41:19+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+NOTIC: [2] include_once(PublicControllers.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+NOTIC: [2] include_once(): Failed opening 'PublicControllers.class.php' for inclusion (include_path='D:\xampps\php\PEAR') D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:41:36+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [2] include_once(PublicControllers.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+NOTIC: [2] include_once(): Failed opening 'PublicControllers.class.php' for inclusion (include_path='D:\xampps\php\PEAR') D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:42:12+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002100s ]
+NOTIC: [2] require_once(PublicControllers.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+
+[ 2018-03-04T17:42:12+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [2] require_once(PublicControllers.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+
+[ 2018-03-04T17:42:13+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [2] require_once(PublicControllers.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+
+[ 2018-03-04T17:42:13+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+NOTIC: [2] require_once(PublicControllers.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+
+[ 2018-03-04T17:42:13+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [2] require_once(PublicControllers.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+
+[ 2018-03-04T17:42:13+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [2] require_once(PublicControllers.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+
+[ 2018-03-04T17:42:13+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [2] require_once(PublicControllers.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+
+[ 2018-03-04T17:42:28+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:42:28+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002077s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:42:29+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:42:29+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:42:29+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001189s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: Think\Controller:getInfo方法不存在！
+
+[ 2018-03-04T17:43:46+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: 1146:Table 'new.public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `public`
+ERR: 1146:Table 'new.public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `public`
+
+[ 2018-03-04T17:43:47+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: 1146:Table 'new.public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `public`
+ERR: 1146:Table 'new.public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `public`
+
+[ 2018-03-04T17:43:47+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: 1146:Table 'new.public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `public`
+ERR: 1146:Table 'new.public' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `public`
+
+[ 2018-03-04T17:44:03+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2018-03-04T17:44:04+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2018-03-04T17:48:22+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: 1146:Table 'new.exercise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exercise`
+ERR: 1146:Table 'new.exercise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exercise`
+
+[ 2018-03-04T17:48:35+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: 1146:Table 'new.exercise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exercise`
+ERR: 1146:Table 'new.exercise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exercise`
+
+[ 2018-03-04T17:48:51+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: 1146:Table 'new.exercise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exercise`
+ERR: 1146:Table 'new.exercise' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `exercise`
+
+[ 2018-03-04T17:49:10+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: 1146:Table 'new.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+ERR: 1146:Table 'new.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+
+[ 2018-03-04T17:49:10+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: 1146:Table 'new.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+ERR: 1146:Table 'new.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+
+[ 2018-03-04T17:49:11+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+ERR: 1146:Table 'new.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+ERR: 1146:Table 'new.new' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `new`
+
+[ 2018-03-04T17:49:40+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0091s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2018-03-04T17:50:42+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.3813s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2018-03-04T17:51:31+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [2] require_once(NewsModel.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+
+[ 2018-03-04T17:51:32+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [2] require_once(NewsModel.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+
+[ 2018-03-04T17:52:10+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+NOTIC: [2] require_once(NewsModel.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+
+[ 2018-03-04T17:52:11+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [2] require_once(NewsModel.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+
+[ 2018-03-04T17:52:29+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [2] include(NewsModel.class.php): failed to open stream: No such file or directory D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+NOTIC: [2] include(): Failed opening 'NewsModel.class.php' for inclusion (include_path='D:\xampps\php\PEAR') D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 12 行.
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0356s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2018-03-04T17:53:15+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0027s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2018-03-04T17:53:19+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0030s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2018-03-04T17:53:20+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 22 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0288s ]
+ERR: Think\Model:getInfo方法不存在！
+
+[ 2018-03-04T17:53:39+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2018-03-04T17:56:02+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2018-03-04T17:56:03+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2018-03-04T17:56:05+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2018-03-04T17:57:47+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2018-03-04T18:02:32+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2018-03-04T18:02:33+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2018-03-04T18:02:33+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2018-03-04T18:02:46+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001119s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2018-03-04T18:02:58+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8] Array to string conversion D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 309 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2018-03-04T18:02:58+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8] Array to string conversion D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 309 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2018-03-04T18:03:16+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+
+[ 2018-03-04T18:03:31+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2018-03-04T18:03:40+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2018-03-04T18:03:41+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001290s ]
+
+[ 2018-03-04T18:03:42+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000992s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2018-03-04T18:03:51+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000930s ]
+
+[ 2018-03-04T18:04:21+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2018-03-04T18:05:29+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2018-03-04T18:05:30+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2018-03-04T18:05:41+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002227s ]
+
+[ 2018-03-04T18:05:48+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2018-03-04T18:06:34+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2018-03-04T18:06:35+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2018-03-04T18:06:45+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2018-03-04T18:06:54+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2018-03-04T18:06:55+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2018-03-04T18:06:55+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2018-03-04T18:06:58+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2018-03-04T18:32:01+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+
+[ 2018-03-04T18:32:02+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+
+[ 2018-03-04T18:32:35+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Non-static method Admin\Controller\PublicController::getInfo() should not be called statically, assuming $this from incompatible context D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 310 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002213s ]
+
+[ 2018-03-04T18:33:31+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Non-static method Admin\Controller\PublicController::getInfo() should not be called statically, assuming $this from incompatible context D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 310 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2018-03-04T18:33:32+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Non-static method Admin\Controller\PublicController::getInfo() should not be called statically, assuming $this from incompatible context D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 310 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2018-03-04T18:33:32+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Non-static method Admin\Controller\PublicController::getInfo() should not be called statically, assuming $this from incompatible context D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 310 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2018-03-04T18:33:32+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Non-static method Admin\Controller\PublicController::getInfo() should not be called statically, assuming $this from incompatible context D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 310 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2018-03-04T18:33:42+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Non-static method Admin\Controller\PublicController::getInfo() should not be called statically, assuming $this from incompatible context D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 310 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+

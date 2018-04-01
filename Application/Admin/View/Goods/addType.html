@@ -1,0 +1,24 @@
+<include file='Public/header'/>
+<div class='container'>
+    <form method="post">
+        <table>
+            <tr>
+                <td>商品分类</td>
+                <td><input type='text' name='type_name'/></td>
+            </tr>
+            <tr>
+                <td>父级分类</td>
+                <td>
+                    <select name='pid'>
+                        <option value='0'>选择父级分类</option>
+                        <foreach name='type_list' item='type'>                            
+                        <option value='{$type.id}'>{$type.type_name}</option>
+                        </foreach>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="添加"/>
+                        </td>
+                    </tr>
+    </form>
+</div>

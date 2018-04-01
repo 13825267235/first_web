@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>{$metaTitle}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="__PUBLIC__/admin/css/main.css"/>
+        <link rel='stylesheet' href='__PUBLIC__/bootstrap/css/bootstrap.min.css'/>
+        <script src='__PUBLIC__/bootstrap/js/bootstrap.min.js'></script>
+        <script src='__PUBLIC__/ueditor/ueditor.config.js'></script>
+        <script src='__PUBLIC__/ueditor/ueditor.all.min.js'></script>
+        <script src='__PUBLIC__/jquery/jquery-1.4.js'></script>
+        <script src='__PUBLIC__/admin/js/main.js'></script>
+    </head>
+    <body>
+        <div class="contanier">
+            <div class="page-header"><h2>Welcome to my website</h2></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="{:U('Index/index')}">首页</a></li>
+                    <li>
+                        <a href="">商品管理</a>
+                        <ul class="childClass">
+                            <li>
+                                <a href="{:U('Goods/addGoods')}">添加商品</a>
+                            </li>
+                            <li>
+                                <a href="{:U('Goods/manageGoods')}">管理商品</a> 
+                            </li>
+                            <li>
+                                <a href="{:U('Goods/addType')}">添加商品分类</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">栏目管理</a>
+                        <ul class="childClass">
+                            <li>
+                                <a href="#">添加栏目</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">新闻频道</a>
+                        <ul class="childClass">
+                            <li>
+                                <a href="{:U('News/index')}">新闻列表</a>
+                            </li>
+                            <li>
+                                <a href="{:U('News/manage')}">添加新闻</a>
+                            </li>
+                            <li>
+                                <a href="{:U('News/type_list')}">新闻类型</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="">活动中心</a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

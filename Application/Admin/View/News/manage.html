@@ -1,0 +1,50 @@
+<include file='Public/header'/>
+
+<div class='content'>
+    <form method='post' enctype='multipart/form-data'>
+        <table class='table-condensed'>
+            <tr>
+                <td>新闻标题</td>
+                <td><input type='text' name='title' value='{$news.title}'/></td>
+            </tr>
+            <tr>
+                <td>新闻来源</td>
+                <td><input type='text' name='source' value='{$news.source}'/></td>
+            </tr>
+            <tr>
+                <td>新闻类型</td>
+                <td>
+                    <select name='type'>
+                        <foreach name='newsType' item='type'>
+                            <if condition="$type[id] eq $news[type]">
+                                <option value='{$type.id}' selected>{$type.classname}</option>
+                                <else/>
+                                <option value='{$type.id}'>{$type.classname}</option>
+                            </if>
+
+                        </foreach>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>新闻封面</td>
+                <td><input type='file' name='cover'/></td>
+            </tr>
+            <tr>
+                <td>新闻详情</td>
+                <td><textarea name='content' id='content' style='width:900px'>{$news.content}</textarea></td>
+            </tr>
+            <tr>
+                <td colspan='2'>
+                    <input type='hidden' name='old_id' value='{$news.id}'/>
+            <if condition="$news.id eq ''">
+                    <input type='submit' value='添加'/>
+                    <else/>
+                    <input type='submit' value=' 修改'/>
+            </if>
+                    <input type='reset' value='重置'/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

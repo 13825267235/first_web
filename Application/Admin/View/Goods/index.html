@@ -1,0 +1,40 @@
+<include file="Public/header"/>
+<script language='javascript'>
+   function delGoods(id){
+       if(confirm("是否确认删除该商品？")){
+           $.post("del_goods",{"id":id},function(data){
+               if(data==1){
+                   alert("成功删除所选商品");
+                   window.location.href="index";
+               }else{
+                   alert("删除失败");
+                   window.history();
+               }
+           })
+       }
+   }
+</script>
+<div class='container'>
+    <h4 style="float:right;font-weight: bold"><a href="{:U('addGoods')}">添加商品</a></h4>
+    <table>
+        <tr>
+            <td>商品名称</td>
+            <td>商品分类</td>
+            <td>商品价格</td>
+            <td>商品图片</td>
+            <td>商品属性</td>
+            <td>操作</td>
+        </tr>
+
+        <foreach name='goods_list' item='goods'>
+            <tr>
+                <td>{$goods.goods_name}</td>
+                <td>{$goods.type_name}</td>
+                <td>{$goods.goods_price}</td>
+                <td>{$goods.goods_name}</td>
+                <td>{$goods.goods_name}</td>
+                <td><a href="{:U('manageGoods',array('id'=>$goods[id]))}">修改</a> | <a href="javascript:delGoods('{$goods.id}')">删除</a></td>
+            </tr>
+        </foreach>
+    </table>
+</div>

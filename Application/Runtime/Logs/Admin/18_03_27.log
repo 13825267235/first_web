@@ -1,0 +1,8 @@
+[ 2018-03-27T20:21:23+08:00 ] ::1 /university/admin.php/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM goods WHERE id=0 AND goods_name=
+
+[ 2018-03-27T22:03:36+08:00 ] ::1 /university/admin.php/Goods/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT * FROM goods WHERE id=0 AND goods_name=
+

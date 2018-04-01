@@ -1,0 +1,33 @@
+<include file='Public/header'/>
+<div class='container'>
+    <form method='post' enctype="multipart/form-data">
+    <table class='table-condensed'>
+        <tr>
+            <td>商品名称</td>
+            <td><input type='text' name='goods_name' value='{$goods.goods_name}'/><td>
+        </tr>
+        <tr>
+            <td>商品价格</td>
+            <td><input type='text' name='goods_price' value='{$goods.goods_price}'/><td>
+        </tr>
+        <tr>
+            <td>商品图片</td>
+            <td><input type='file' name='goods_picture'/><td>
+        </tr>
+        <tr>
+            <td>商品属性</td>
+            <td><input type='text' name='goods_attr'/><td>
+        </tr>
+        <tr>
+            <td>商品详情</td>
+            <td><textarea name='goods_detail'>{$goods_detail}</textarea></td>
+        </tr>            
+        <tr>
+            <td colspan='2'>
+            <input type='hidden' name='id' value='{$goods.id}'/>    
+            <input type='submit' value='修改'/>
+            <td>
+        </tr>
+    </table>
+
+</div>    

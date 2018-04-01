@@ -1,0 +1,55 @@
+[ 2018-03-08T14:46:15+08:00 ] ::1 /university/admin.php/exercise/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.058666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019172s ]
+NOTIC: [8] Constant MYSELF already defined D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 21 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 152 行.
+NOTIC: [8192] Function ereg() is deprecated D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 153 行.
+NOTIC: [8192] Non-static method Admin\Controller\PublicController::getInfo() should not be called statically, assuming $this from incompatible context D:\xampps\htdocs\university\Application\Admin\Controller\ExerciseController.class.php 第 313 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011061s ]
+
+[ 2018-03-08T17:33:38+08:00 ] ::1 /university/admin.php/exercise/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011518s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.011666s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2018-03-08T17:33:45+08:00 ] ::1 /university/admin.php/exercise/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002090s ]
+
