@@ -462,7 +462,7 @@ class ExerciseController extends Controller {
         if ($data) {
             print_r($data);
         } else {
-            
+            echo rand(333,444);
             
             echo phpinfo();die();
             
