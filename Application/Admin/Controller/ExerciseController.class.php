@@ -9,25 +9,47 @@
 namespace Admin\Controller;
 
 use Think\Controller;
+
 require "Public/redis/autoload.php";
 
 class ExerciseController extends Controller {
-    
+
     //redis学以致用（使用Predis：完全使用PHP代码实现的原生客户端
-    public function predis(){
-         \Predis\Autoloader::register();  
-        $redis=new \Predis\Client();
-        
+    public function predis() {
+        \Predis\Autoloader::register();
+        $redis = new \Predis\Client();
+
 //        $redis=new \Think\Cache\Driver\Redis();
 //        echo $redis->get("c");
         echo $redis->ping();
 //        $redis->set("car","宝马");
 //        print_r($redis->get("car"));
     }
-    
+
+    /*
+     * 递归函数的学以致用V1.0
+     */
+
+    public function readd($n) {
+        if ($n > 2) {
+            $arr[$n] = $this->readd($n - 2) + $this->readd($n - 1); //递归调用函数本身
+            return $arr[$n];
+        } else {
+            return 1;
+        }
+    }
+
+    //调用递归函数
+    public function get_readd() {
+        echo $this->readd(30);
+    }
 
     public function index() {
-        
+
+        //显示PHP信息
+//        echo phpinfo();die();
+
+
         define("MYSELF", "中华人民共和国"); //定义常量
         echo MYSELF;
 
@@ -141,7 +163,7 @@ class ExerciseController extends Controller {
         echo ucfirst($str) . "<br />"; //整个字符串首字母大写
 
         echo ucwords($str) . "<br />"; //整个字符串中以空格为分隔符的单词首字母大写
-        
+
         /*
          * 正则表达式是把文本或字符串按照一定的规范或模型表示的方法，经常用于文本的匹配操作。例如，验证用户在线输入的邮件地址的格式是否正确。使用正则表达式技术，用户所填写的表单信息将会被正常处理；反之，如果用户输入的邮件地址与正则表达的模式不匹配，就会弹出提示信息，要求用户重新输入正确的信息。可见正则表达式在web应用的逻辑判断中具有举足轻重的作用。
          * 一般情况下，正则表达式有元字符和文本字符组成。元字符就是具有特殊含义的字符，例如“？”、“*”等。文本字符就是普通的文本，例如字母和数字。
@@ -153,151 +175,163 @@ class ExerciseController extends Controller {
          * [0-9]：表示匹配0-9的任意数字
          * 
          */
-        
+
         //正则表达式暂放，后续再学习
-        
-        $pattern1="is";//匹配模式
-        $pattern2="^[A-Za-z0-9]+";
-        
-        
-        
-        $string="My name is xiaolinzi.com";
-        ereg($pattern1,$string,$new_arr1);//ereg()函数用于正则表达式的匹配，其中，$new_arr为匹配后形成的数组，此处匹配到了is字符
-        ereg($pattern2,$string,$new_arr2);
-        var_dump($new_arr1,$new_arr2);
+
+        $pattern1 = "is"; //匹配模式
+        $pattern2 = "^[A-Za-z0-9]+";
+
+
+
+        $string = "My name is xiaolinzi.com";
+        ereg($pattern1, $string, $new_arr1); //ereg()函数用于正则表达式的匹配，其中，$new_arr为匹配后形成的数组，此处匹配到了is字符
+        ereg($pattern2, $string, $new_arr2);
+        var_dump($new_arr1, $new_arr2);
         echo "<hr/>";
-        
+
         //数组
-        $arr=array("小明"=>"技术员","小利"=>"客服","小芳"=>"行政","小林"=>"总经理");
+        $arr = array("小明" => "技术员", "小利" => "客服", "小芳" => "行政", "小林" => "总经理");
         //使用foreach遍历一维数组
-        foreach($arr as $key=>$value){
-            echo $key.":".$value."<br/>";
+        foreach ($arr as $key => $value) {
+            echo $key . ":" . $value . "<br/>";
         }
-        
-        reset($arr);//前面使用foreach（）函数遍历数组后如需使用while循环来遍历数组，则需要使用reset()函数来重置数组
+
+        reset($arr); //前面使用foreach（）函数遍历数组后如需使用while循环来遍历数组，则需要使用reset()函数来重置数组
         //使用each()函数遍历一维数组
-        while($element=each($arr)){
-            echo "姓名：".$element['key']." ";
-            echo "职位：".$element['value'];
+        while ($element = each($arr)) {
+            echo "姓名：" . $element['key'] . " ";
+            echo "职位：" . $element['value'];
             echo '<br/>';
         }
-        
-        reset($arr);//重置数组
+
+        reset($arr); //重置数组
         //使用list()函数将each()函数遍历出来的键名和键值分别赋值和输出，如：此处将键名赋值给$name,键值赋值给$job
-        while(list($name,$job)=each($arr)){
-            echo $name."是".$job."<br/>";
+        while (list($name, $job) = each($arr)) {
+            echo $name . "是" . $job . "<br/>";
         }
-        
+
         //使用for循环+while()循环+each()函数+list()函数遍历多维数组,此处为二维数组
-        $many_arr=array(array("name"=>"jack","job"=>"工程师","age"=>26),array("name"=>"lili","job"=>"前台","age"=>23),array("name"=>"marry","job"=>"客服妹子","age"=>20),array("name"=>"Tom","job"=>"部门经理","age"=>28));
-        for($i=0;$i<count($many_arr);$i++){
-             while($vv=each($many_arr[$i])){
-                echo $vv['key']."：".$vv['value']."  ";
+        $many_arr = array(array("name" => "jack", "job" => "工程师", "age" => 26), array("name" => "lili", "job" => "前台", "age" => 23), array("name" => "marry", "job" => "客服妹子", "age" => 20), array("name" => "Tom", "job" => "部门经理", "age" => 28));
+        for ($i = 0; $i < count($many_arr); $i++) {
+            while ($vv = each($many_arr[$i])) {
+                echo $vv['key'] . "：" . $vv['value'] . "  ";
             }
-            
-            
+
+
 //            while(list($k,$v)=each($many_arr[$i])){
 //                echo $k."：".$v."<br/>";
 //            }
             echo "<br/>";
         }
         echo "<hr/>";
-        reset($many_arr);//数组在前面遍历后需再次遍历时需要使用reset()函数重置数组
-        
+        reset($many_arr); //数组在前面遍历后需再次遍历时需要使用reset()函数重置数组
         //使用foreach（）遍历多维数组
-        foreach($many_arr as $k=>$v){
-            foreach($v as $kkk=>$vvv){
-                echo $kkk.":".$vvv." ";
+        foreach ($many_arr as $k => $v) {
+            foreach ($v as $kkk => $vvv) {
+                echo $kkk . ":" . $vvv . " ";
             }
             echo "<br/>";
         }
-        
+
         //数组排序
-        $sort_arr=array("1"=>20,"3"=>30,"8"=>10,"4"=>50,"2"=>100,"9"=>80);
+        $sort_arr = array("1" => 20, "3" => 30, "8" => 10, "4" => 50, "2" => 100, "9" => 80);
 //        rsort($sort_arr);//降序排序，即按照数组键值降序排列
 //        asort($sort_arr);//升序排序，跟rsort()相反
-        ksort($sort_arr);//按照下标升序排序
+        ksort($sort_arr); //按照下标升序排序
         print_r($sort_arr);
         echo "<hr/>";
-        
+
         //往数组中添加元素,使用array_push()函数在数组的后面追加元素，array_unshift()函数在数组的头部添加元素
-        $old_array=array("小明","小芳","晓东");
-        array_unshift($old_array,"小丽","小李");
+        $old_array = array("小明", "小芳", "晓东");
+        array_unshift($old_array, "小丽", "小李");
 //        array_push($old_array,"小丽","小李");
-        print_r($old_array);echo "<br/>";
-        
+        print_r($old_array);
+        echo "<br/>";
+
         //删除数组中的元素
         //使用array_shift()函数删除指定数组中的第一个元素
-        $deleted_element= array_shift($old_array);
+        $deleted_element = array_shift($old_array);
         echo $deleted_element;
-        print_r($old_array);echo "<br/>";
-        
+        print_r($old_array);
+        echo "<br/>";
+
         //array_pop()函数删除指定数组中的最后一个元素，并返回该值
-        $relation_array=array("name"=>"小凤","sex"=>"女","age"=>26);
-        $deleted_element2=array_pop($relation_array);
+        $relation_array = array("name" => "小凤", "sex" => "女", "age" => 26);
+        $deleted_element2 = array_pop($relation_array);
         echo $deleted_element2;
-        print_r($relation_array);echo "<br/>";
-        
+        print_r($relation_array);
+        echo "<br/>";
+
         /*
          * 查询数组
          */
         //in_array()查询目标字符串是否为指定数组的键值
-        if(in_array("小明",array("name"=>"小明"))){echo "小明存在于该数组中"."；  ";};
-        
+        if (in_array("小明", array("name" => "小明"))) {
+            echo "小明存在于该数组中" . "；  ";
+        };
+
         //array_key_exists()函数查询数组中是否存在改下标
-        if(array_key_exists("sex", array("name"=>"小凤","sex"=>"女","age"=>26))) echo "该数组中存在”sex“下标"."；  ";
-        
+        if (array_key_exists("sex", array("name" => "小凤", "sex" => "女", "age" => 26)))
+            echo "该数组中存在”sex“下标" . "；  ";
+
         //array_search()函数查询数组中键值是否存在指定值
-        if(array_search("26",array("name"=>"小凤","sex"=>"女","age"=>26))) echo "该数组中存在该值";
+        if (array_search("26", array("name" => "小凤", "sex" => "女", "age" => 26)))
+            echo "该数组中存在该值";
         echo "<br/>";
-        
+
         //array_keys()函数取得关联索引数组的键名（下标）成为一个新的数字索引数组
-        $old_relation_arr=array("name"=>"小凤","sex"=>"女","age"=>26);
-        $new_num_arr1=array_keys($old_relation_arr);
-        print_r($new_num_arr1);echo "<br/>";
-        
+        $old_relation_arr = array("name" => "小凤", "sex" => "女", "age" => 26);
+        $new_num_arr1 = array_keys($old_relation_arr);
+        print_r($new_num_arr1);
+        echo "<br/>";
+
         //array_values()函数取得关联索引数组的键值成为一个新的数字索引数组
-        $new_num_arr2=array_values($old_relation_arr);
-        print_r($new_num_arr2);echo "<br/>";
-        
+        $new_num_arr2 = array_values($old_relation_arr);
+        print_r($new_num_arr2);
+        echo "<br/>";
+
         //array_count_values()函数用于统计数组内各键值的个数,并形成一个以键值为下标，以键值数量为键值的新数组
-        $new_arr3=array("苹果"=>28,"香蕉"=>8,"桃子"=>28,"李子"=>18,"榴莲"=>28,"菠萝"=>18);
-        $count_arr= array_count_values($new_arr3);
-        print_r($count_arr);echo "<br/>";
-        
+        $new_arr3 = array("苹果" => 28, "香蕉" => 8, "桃子" => 28, "李子" => 18, "榴莲" => 28, "菠萝" => 18);
+        $count_arr = array_count_values($new_arr3);
+        print_r($count_arr);
+        echo "<br/>";
+
         //使用array_unique()函数删除数组中重复的元素，即删除键值相同的后面所有元素
-        print_r(array_unique($new_arr3));echo "<br/>";
-        
+        print_r(array_unique($new_arr3));
+        echo "<br/>";
+
         //array_flip()函数用于调换数组内的键值（即下标）和元素值，如果有相同的元素值将会保留最后的那个。例如调换$new_arr3将会得到array("28"=>"榴莲",8=>"香蕉","18"=>"菠萝")
-        print_r(array_flip($new_arr3));echo "<br/>";
-        
+        print_r(array_flip($new_arr3));
+        echo "<br/>";
+
         //serialize()函数用于数组的序列化处理，unserialize()函数用于反序列化
-        echo serialize($new_arr3);echo "<hr/>";
-        
+        echo serialize($new_arr3);
+        echo "<hr/>";
+
         /*
          * 日期和时间
          */
         //time()函数输出当前的时间戳
-        echo "当前的时间戳为：".time();echo "<br/>";
-        
-        //date（）函数返回当前日期
-        echo "现在是".date("Y-m-d H:i:s")."  ";
-        echo "这个月有".date("t")."天"."<br/>";//往date()函数中传入参数t，将得到这个月的总天数
-        
-        date_default_timezone_get("PRC");//设置默认时区为北京时间
-        
-        print_r(getdate());//getdate()函数返回一个数组，包含日期和时间的各个部分，若参数为空即返回当前日期和时间
+        echo "当前的时间戳为：" . time();
         echo "<br/>";
-        
-        echo strtotime("2018-03-03 19:30:20")."<br/>";//strtotime()函数用于将指定日期转换为时间戳
-        
+
+        //date（）函数返回当前日期
+        echo "现在是" . date("Y-m-d H:i:s") . "  ";
+        echo "这个月有" . date("t") . "天" . "<br/>"; //往date()函数中传入参数t，将得到这个月的总天数
+
+        date_default_timezone_get("PRC"); //设置默认时区为北京时间
+
+        print_r(getdate()); //getdate()函数返回一个数组，包含日期和时间的各个部分，若参数为空即返回当前日期和时间
+        echo "<br/>";
+
+        echo strtotime("2018-03-03 19:30:20") . "<br/>"; //strtotime()函数用于将指定日期转换为时间戳
         //checkdate()检测用户输入的时间是否正确
-        if(checkdate(2, 30, 2018)){
+        if (checkdate(2, 30, 2018)) {
             echo "天呐，太不可思议了";
-        }else{
-            echo "2月份没有30号"."<hr/>";
+        } else {
+            echo "2月份没有30号" . "<hr/>";
         }
-        
+
         /*
          * 面向对象
          * 面向对象的主要的特性可封装性、可继承性和多态性。
@@ -319,104 +353,121 @@ class ExerciseController extends Controller {
          * 在PHP中可以通过继承实现多态，也可以通过接口实现多态
          */
 
-        
+
         //使用封装函数求和，$this代表当前类（对象）
-        echo $this->get_sum(3,5)." ";
+        echo $this->get_sum(3, 5) . " ";
         //调用其他文件的自定义封装函数
-        echo PublicController:: getInfo(3,0);
+        echo PublicController:: getInfo(3, 0);
         echo "<br>";
-        
+
 //        print_r(D("Admin/News")->select()) ;
-        
+
         /*
          * 常见的错误处理方法包括使用错误处理机制、使用Die语句调试、自定义错误和错误触发器等。
          * 
          * 异常（Exception）用于在指定的错误发生时改变脚本的正常流程。
          */
-        
+
         //自定义错误处理函数
 //        function customError($errNo,$errMsg){
 //            echo "<b>错误：</b>".[$errNo].$errMsg;
 //        }
 //        set_error_handler("customError");
-        
-        
+
+
         /*
          * PHP是一种专门用于web开发的服务器端脚本语言。PHP要打交道的主要是服务器（server）和HTML（超文本标识语言）。
          * 表单传递数据的常用方法有POST和GET两种。POST和GET的区别：POST安全，传输量大；GET方式会将所传输的数据以URL的形式显示在浏览器地址栏里。
          */
         //对URL中传递的参数进行编码，既可以实现对数据的加密，又可以对无法通过浏览器地址栏传递的参数进行传递。
         //urlencode()编码所传递的参数，将空格转换为”+“
-        $names="小小 芳芳";
-        $link1="index.php?name=".urlencode($names);
-        $link2="index.php?name=".rawurlencode($names);//rawurlencode()函数在对URL中传递的参数进行编码的时候会将空格编码为”%20“
-        echo $link1."<br/>".$link2."<br/>";
-        echo urldecode($link1)."<br/>";//反编码，即解码，下同
-        echo rawurldecode($link2)."<br/>";
-        
-        
+        $names = "小小 芳芳";
+        $link1 = "index.php?name=" . urlencode($names);
+        $link2 = "index.php?name=" . rawurlencode($names); //rawurlencode()函数在对URL中传递的参数进行编码的时候会将空格编码为”%20“
+        echo $link1 . "<br/>" . $link2 . "<br/>";
+        echo urldecode($link1) . "<br/>"; //反编码，即解码，下同
+        echo rawurldecode($link2) . "<br/>";
+
+
         /*
          * 文件与目录的操作
          * fopen($file,$method)函数用于打开文件，其中$file为文件路径，后者为打开方式
          * fwrite($file,$str,$str_len)用于在打开的文件上写入数据
          * 
          */
-        $file="D:/office/exercises.txt";
+        $file = "D:/office/exercises.txt";
 //        $fp=fopen($file,"r");//打开文件用于读取，且从该文件的头部开始读取
 //        $fp=fopen($file,"r+");//打开文件用于读取和写入，且从该文件的头部开始读取和写入
-        
 //        $fp=fopen($file,"w");//w模式用于写入；当文件存在时将清空文件内容后从头写入，不存在时将创建该文件并写入内容
 //        $fp=fopen($file,"w+");//w+模式用于写入和读取；当文件存在时将清空文件内容后从头写入，不存在时将创建该文件并写入内容
-        
-        $fp=fopen($file,"a");//添加写入（即追加内容）
-        
-        fwrite($fp,"小仙女，i love you");
+
+        $fp = fopen($file, "a"); //添加写入（即追加内容）
+
+        fwrite($fp, "小仙女，i love you");
 //        while(!feof($fp)){//feof()函数检查是否到了文件尾部，在此处的话不到文件尾就一直循环下去
 //            $file_info=fgets($fp);
 //            echo $file_info."<br/>";
 //        }
-        fclose($fp);//关闭文件
-        
+        fclose($fp); //关闭文件
         //常用的文件目录函数
-        echo getcwd();//返回当前的工作目录
-        
-        print_r(scandir(getcwd()));//获取指定目录下的文件和目录，此处获取当前工作目录下的文件和目录
+        echo getcwd(); //返回当前的工作目录
+
+        print_r(scandir(getcwd())); //获取指定目录下的文件和目录，此处获取当前工作目录下的文件和目录
         echo "<br/>";
         echo microtime();
-        
-        
+
+
         /*
          * 应对高并发的策略有：尽可能的HTML静态化，图片服务器分离，数据库集群和库表散列，负载均衡
          */
     }
-    
+
     //表单传输方式测试，即测试POST和GET的区别
-    public function info(){
+    public function info() {
         print_r($_POST);
         $this->display();
     }
-    
+
     /*
      * MySQL知识点
      */
-    public function mysql_info(){
+
+    public function mysql_info() {
         //mysqldump用来备份数据库，mysqldump -u用户名 -p密码 --opt 数据库名 > 备份地址（保存指定数据库中所有的表）
         //mysqldump -u用户名 -p密码  数据库名 表名> 备份地址（备份指定数据库中的指定表及内容）
     }
-    
+
     /*
      * Think PHP的全面系统学习（知识要点）
      */
-    public function think_php(){
+
+    public function think_php() {
         /*
-         *应用编译机制是ThinkPHP独创的功能特色。
+         * 应用编译机制是ThinkPHP独创的功能特色。
          * 应用编译缓存的基础原理是第一次运行的时候把核心需要加载的文件去掉空白和注释后合并到一个文件，第二次运行的时候就直接加载编译缓存而无需加载众多的核心文件，当第二次执行的时候就会根据当前的应用模式直接载入编译过的缓存文件，从而省去很多IO开销，加快执行速度
          */
     }
 
     //求和
-    public function get_sum($a,$b) {
-        return $a+$b;
+    public function get_sum($a, $b) {
+        return $a + $b;
+    }
+
+    /*
+     * html学以致用
+     */
+
+    public function htmls() {
+        $data = I();
+        if ($data) {
+            print_r($data);
+        } else {
+            
+            
+            echo phpinfo();die();
+            
+            $this->display();
+        }
     }
 
 }
